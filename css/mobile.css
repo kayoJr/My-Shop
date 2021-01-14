@@ -1,0 +1,104 @@
+.btn {
+  font-size: 13px;
+  padding: 8px 8px;
+}
+.btn-sec {
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+}
+#navbar {
+  flex-direction: column;
+  align-items: center;
+}
+#navbar h1 {
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+#showcase {
+  height: 20vh;
+  display: flex;
+}
+#showcase p {
+  margin-top: 30px;
+  font-size: 12px;
+  display: block;
+}
+#showcase h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#showcase .content {
+  margin-right: 40px;
+}
+
+#arrival h1 {
+  font-size: 25px;
+}
+#arrival .items {
+  flex-direction: column;
+}
+#arrival .items .item {
+  margin-bottom: 30px;
+}
+#arrival .items .item img {
+  margin-top: 0;
+  width: 200px;
+}
+
+#promo {
+  flex-direction: column;
+}
+#promo .texts {
+  margin-top: 30px;
+  font-size: 25px;
+  align-self: center;
+  line-height: 1.2;
+  padding: unset;
+}
+
+#promo .button {
+  margin-top: 10px;
+  align-self: center;
+}
+
+@media (max-width: 350px) {
+  #showcase .content {
+    margin-right: 20px;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding: 8px 8px;
+  }
+
+  #navbar ul li a {
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  #showcase .content {
+    margin-right: 15px;
+  }
+
+  #showcase p {
+    margin-top: 30px;
+    font-size: 10px;
+    display: block;
+  }
+  #showcase h1 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  #promo .texts {
+    margin-top: 30px;
+    font-size: 20px;
+    align-self: center;
+    line-height: 1.2;
+    padding: unset;
+  }
+}

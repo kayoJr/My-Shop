@@ -1,0 +1,17 @@
+#showcase .content {
+    margin-right: 20%;
+  }
+  @media(min-width:1400px){
+    #showcase .content {
+        margin-right: 30%;
+      }
+  }
+
+  @media(min-height:1025px){
+    #showcase {
+        height: 20vh;
+      }
+      #showcase .content {
+        margin-right: 40px;
+      }
+  }

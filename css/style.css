@@ -1,0 +1,163 @@
+:root {
+  --white: #fff;
+  --black: #222;
+  --yellow: #ffc332;
+  --grey: #ddd;
+}
+@font-face {
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+.btn {
+  background: var(--black);
+  padding: 25px 35px;
+  font-size: larger;
+}
+.btn-sec {
+  color: var(--black);
+  border: solid 1.5px var(--black);
+  padding: 35px 70px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn-sec:hover {
+  color: var(--white);
+  background: var(--black);
+}
+.btn:hover {
+  background: var(--yellow);
+  color: var(--black);
+  font-weight: bold;
+}
+#navbar {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+  font-size: 18px;
+}
+#navbar h1 {
+  font-size: 35px;
+}
+#navbar span {
+  color: var(--yellow);
+}
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+#navbar ul li a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+#showcase {
+  background: url("../img/hero.jpg") no-repeat center center/cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#showcase .content {
+  align-self: flex-end;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+#showcase p {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: bold;
+}
+#showcase h1 {
+  font-size: 55px;
+  font-weight: 100px;
+  margin-bottom: 40px;
+}
+#arrival {
+  margin-bottom: 50px;
+}
+#arrival h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+#arrival .items {
+  display: flex;
+}
+#arrival .items .item {
+  flex: 1;
+  text-align: center;
+}
+#arrival .items .item img {
+  margin-top: 0;
+  width: 300px;
+}
+#arrival .info .head {
+  font-size: 25px;
+  font-weight: bold;
+}
+#arrival .info .strike {
+  font-size: 20px;
+  color: var(--grey);
+  font-weight: bold;
+  -bottom: 0px;
+}
+#arrival .info .price {
+  padding-top: 20px;
+  line-height: 1;
+}
+#arrival .info p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#promo {
+  background: var(--yellow);
+  width: 100%;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#promo .texts {
+  font-size: 30px;
+  align-self: center;
+  line-height: 1.2;
+  margin-left: 5%;
+}
+
+#promo .button {
+  align-self: center;
+  margin-right: 5%;
+}
+
+footer {
+  background: var(--grey);
+  padding: 1rem;
+  text-align: center;
+}
+footer a {
+  color: var(--black);
+}
