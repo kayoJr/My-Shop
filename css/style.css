@@ -30,6 +30,7 @@ a {
   padding: 35px 70px;
   font-size: 30px;
   font-weight: bold;
+  transition: all .3s;
 }
 .btn-sec:hover {
   color: var(--white);
